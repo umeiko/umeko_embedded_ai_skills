@@ -1,0 +1,4 @@
+interface:
+  display_name: "Narrated Demo Video"
+  short_description: "Record real demos and edit narrated promo videos"
+  default_prompt: "Use $narrated-demo-video to record and edit a narrated product demo."

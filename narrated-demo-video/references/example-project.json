@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "canvas": {"width": 1920, "height": 1080, "fps": 30},
+  "clips": [
+    {"source": "footage/opening.mp4", "in": 1, "duration": 4},
+    {"source": "footage/demo.mp4", "in": 0, "duration": 8},
+    {"source": "assets/end-card.png", "kind": "image", "duration": 3}
+  ],
+  "audio": [
+    {"role": "sfx", "source": "footage/opening.mp4", "in": 1, "start": 0, "duration": 4, "gain": 0.8},
+    {"role": "voice", "source": "voice/01.wav", "start": 4, "duration": 4, "gain": 1},
+    {"role": "voice", "source": "voice/02.wav", "start": 8, "duration": 4, "gain": 1},
+    {"role": "music", "source": "assets/bgm.mp3", "start": 0, "duration": 15, "gain": 0.2, "loop": true, "fade_in": 0.5, "fade_out": 1}
+  ],
+  "subtitle_style": {"font": "Microsoft YaHei", "size": 50, "margin_v": 72},
+  "subtitles": [
+    {"start": 4, "end": 8, "text": "我只是想做个小玩具，\n结果开了一家公司。"},
+    {"start": 8, "end": 12, "text": "看，这就是我们的第一位员工。"},
+    {"start": 12, "end": 15, "text": "现在，轮到你了。"}
+  ]
+}
