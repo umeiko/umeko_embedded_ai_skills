@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ascend LLM Training"
+  short_description: "Run reliable LLM training on Ascend NPUs"
+  default_prompt: "Use $ascend-llm-training to prepare, launch, monitor, and validate an LLM training run on Ascend NPUs."
